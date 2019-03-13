@@ -10,3 +10,7 @@ sudo apt install -y maven
 
 #install the service  script into the folder by coping it to there
 sudo cp spring.service /etc/systemd/system
+
+#install reload proccess
+
+sudo systemctl daemon-reload
